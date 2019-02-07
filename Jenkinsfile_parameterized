@@ -4,7 +4,7 @@ properties([
         [
                 $class: 'GithubProjectProperty',
                 displayName: 'RPA Rhubarb microservice (Grails)',
-                projectUrlStr: 'https://github.com/hmcts/rpa-rhubarb/'
+                projectUrlStr: 'https://github.com/hmcts/rd-judicial/'
         ],
 //    parameters(),
         pipelineTriggers([
@@ -15,10 +15,10 @@ properties([
 @Library("Infrastructure")
 
 def type = "java"
-def product = "rpa"
-def component = "rhubarb"
+def product = "rd"
+def component = "judicial"
 
-def channel = '#rpa-rhubarb-builds'
+def channel = '#rd-judicial-builds'
 
 //List<LinkedHashMap<String, Object>> secrets = [
 //        secret('cor-s2s-token', 'TEST_S2S_TOKEN')

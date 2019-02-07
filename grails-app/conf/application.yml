@@ -2,7 +2,7 @@
 grails:
   profile: rest-api
   codegen:
-    defaultPackage: rpa.rhubarb
+    defaultPackage: rd.judicial
   gorm:
     reactor:
       # Whether to translate GORM events into Reactor events
@@ -88,7 +88,7 @@ environments:
   development:
     dataSource:
       dbCreate: none
-      url: jdbc:h2:file:~/.moj/db-rpa-rhubarb;AUTO_SERVER=TRUE;
+      url: jdbc:h2:file:~/.moj/db-rd-judicial;AUTO_SERVER=TRUE;
       logSql: false
       formatSql: false
     server:

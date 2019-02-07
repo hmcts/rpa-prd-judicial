@@ -91,7 +91,7 @@ module "db" {
 //}
 
 //data "azurerm_key_vault_secret" "s2s_secret" {
-//  name = "microservicekey-rpa-prd-org"
+//  name = "microservicekey-rd-prd-org"
 //  vault_uri = "${local.s2s_vault_url}"
 //}
 

@@ -1,4 +1,4 @@
-package rpa.rhubarb
+package rd.judicial
 
 import grails.core.GrailsApplication
 import grails.plugins.GrailsPluginManager

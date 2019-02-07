@@ -1,4 +1,4 @@
-package rpa.rhubarb.web
+package rd.judicial.web
 
 import grails.gorm.transactions.Transactional
 import grails.rest.RestfulController

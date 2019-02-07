@@ -1,9 +1,8 @@
-package rpa.rhubarb.web
+package rd.judicial.web
 
-import grails.converters.JSON
+
 import grails.gorm.transactions.Transactional
 
-import static org.springframework.http.HttpStatus.NO_CONTENT
 import static org.springframework.http.HttpStatus.OK
 
 abstract class AbstractDtoRenderingController<T, U> extends AbstractExceptionHandlerController<T> {
@@ -17,6 +16,10 @@ abstract class AbstractDtoRenderingController<T, U> extends AbstractExceptionHan
     }
 
     def index(Integer max) {
+        index()
+    }
+
+    def index() {
         respond listAllResources(params).collect { dtoType.newInstance(it) }
     }
 

@@ -159,4 +159,4 @@ task smoke(type: Test) {
     description = 'Executes non-destructive smoke tests'
 }
 
-war.archiveName = 'rd-rhubarb.war'
+war.archiveName = 'rd-judicial.war'

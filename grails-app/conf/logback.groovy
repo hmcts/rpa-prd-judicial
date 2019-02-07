@@ -25,5 +25,5 @@ appender('STDOUT', ConsoleAppender) {
 
 appender('AZURE_APPINSIGHTS', ApplicationInsightsAppender)
 
-logger('rpa.rhubarb', TRACE, ['STDOUT', 'AZURE_APPINSIGHTS'])
+logger('rd.judicial', TRACE, ['STDOUT', 'AZURE_APPINSIGHTS'])
 root(WARN, ['STDOUT', 'AZURE_APPINSIGHTS'])

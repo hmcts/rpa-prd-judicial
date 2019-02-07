@@ -1,4 +1,4 @@
-package rpa.rhubarb.config
+package rd.judicial.config
 
 import com.microsoft.applicationinsights.TelemetryClient
 import org.springframework.stereotype.Component

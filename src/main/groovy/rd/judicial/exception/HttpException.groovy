@@ -1,4 +1,4 @@
-package rpa.rhubarb.exception
+package rd.judicial.exception
 
 import org.springframework.http.HttpStatus
 
